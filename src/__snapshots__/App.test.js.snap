@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders correctly  1`] = `
+<div
+  className="pinlock-wrapper"
+>
+  <h2>
+    Locked
+  </h2>
+  <passcode
+    errorCount={0}
+    passcode=""
+  />
+  <div>
+    <keyPad
+      handleKeypad={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`KeyPad component renders correctly  1`] = `
+<ul
+  className="keypad"
+>
+  <li
+    className="dial"
+    key="0"
+    value="1"
+  >
+    1
+  </li>
+  <li
+    className="dial"
+    key="1"
+    value="2"
+  >
+    2
+  </li>
+  <li
+    className="dial"
+    key="2"
+    value="3"
+  >
+    3
+  </li>
+  <li
+    className="dial"
+    key="3"
+    value="4"
+  >
+    4
+  </li>
+  <li
+    className="dial"
+    key="4"
+    value="5"
+  >
+    5
+  </li>
+  <li
+    className="dial"
+    key="5"
+    value="6"
+  >
+    6
+  </li>
+  <li
+    className="dial"
+    key="6"
+    value="7"
+  >
+    7
+  </li>
+  <li
+    className="dial"
+    key="7"
+    value="8"
+  >
+    8
+  </li>
+  <li
+    className="dial"
+    key="8"
+    value="9"
+  >
+    9
+  </li>
+  <li
+    className="dial"
+    key="9"
+    value="Clear"
+  >
+    Clear
+  </li>
+  <li
+    className="dial"
+    key="10"
+    value="0"
+  >
+    0
+  </li>
+  <li
+    className="dial"
+    key="11"
+    value="Unlock"
+  >
+    Unlock
+  </li>
+</ul>
+`;
+
+exports[`Message component renders correctly  1`] = `
+<Fragment>
+   
+</Fragment>
+`;
+
+exports[`Passcode component renders correctly  1`] = `
+<div
+  className="passcode"
+>
+  <input
+    className="passcode"
+    name="password"
+    readOnly={true}
+    type="password"
+  />
+  <h3>
+    <displayMessage
+      message={
+        Object {
+          "attempt1": 1,
+          "attempt2": 2,
+          "attempt3": 3,
+          "clear": "Clear",
+          "correctCombination": "1234",
+          "incorrectentry": "Incorrect entry",
+          "locked": "Locked",
+          "toomanyattempts": "Too many incorrect attempts",
+          "unlock": "Unlock",
+          "unlocked": "Unlocked",
+        }
+      }
+    />
+  </h3>
+</div>
+`;
